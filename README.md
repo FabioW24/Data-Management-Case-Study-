@@ -20,7 +20,7 @@ Step 2: Clone this Repository or download all files into the same directory
 Step 3: open bash and navigate to your directory, where you cloned this repository and execute 
 this command: docker compose up -d
 
-step 4: open your Database IDE and connect it to your fresh new docker container
+Step 4: open your Database IDE and connect it to your fresh new docker container
 
-step 5: you should no have all Tables with all sample data inserted and all views created. To test the querys please add 
+Step 5: you should now have all Tables with all sample data inserted and all views created. To test the queries please add 
 NumeriScan_Queries.sql to your IDE and execute it.
