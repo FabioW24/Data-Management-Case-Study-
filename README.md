@@ -4,10 +4,10 @@ This repository contains all SQL files I used for task 4 (the SQL implementation
 
 # Repository Content
 
-** NumeriScan_Tables.sql ** creates all Tables for our Database 
-** NumeriScan_Insert.sql ** inserts sample data into all Tables 
-** NumeriScan_Views.sql ** creates Views, that I found helpful when writing queries
-** NumeriScan_Queries.sql ** Queries from task 4, which output useful information NumeriScan might needs 
+- NumeriScan_Tables.sql ** creates all Tables for our Database 
+- NumeriScan_Insert.sql ** inserts sample data into all Tables 
+- NumeriScan_Views.sql ** creates Views, that I found helpful when writing queries
+- NumeriScan_Queries.sql ** Queries from task 4, which output useful information NumeriScan might needs 
 
 # How to start the Database with Docker
 
