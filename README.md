@@ -22,4 +22,5 @@ this command: docker compose up -d
 
 step 4: open your Database IDE and connect it to your fresh new docker container
 
-step 5: 
+step 5: you should no have all Tables with all sample data inserted and all views created. To test the querys please add 
+NumeriScan_Queries.sql to your IDE and execute it.
