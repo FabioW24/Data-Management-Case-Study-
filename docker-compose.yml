@@ -5,8 +5,8 @@ services:
     image: postgres:15-alpine
     container_name: numeriscan_db
     environment:
-      POSTGRES_USER: fabio
-      POSTGRES_PASSWORD: password123
+      POSTGRES_USER: me
+      POSTGRES_PASSWORD: DaMa123
       POSTGRES_DB: numeriscan
     ports:
       - "5432:5432"
