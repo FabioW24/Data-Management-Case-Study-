@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  postgres-db:
+    image: postgres:15-alpine
+    container_name: numeriscan_db
+    environment:
+      POSTGRES_USER: fabio
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: numeriscan
+    ports:
+      - "5432:5432"
+    volumes:
+      
+      - ./NumeriScan_Tables.sql:/docker-entrypoint-initdb.d/1_tables.sql
+      - ./NumeriScan_Insert.sql:/docker-entrypoint-initdb.d/2_inserts.sql
+      - ./NumeriScan_Views.sql:/docker-entrypoint-initdb.d/3_views.sql
