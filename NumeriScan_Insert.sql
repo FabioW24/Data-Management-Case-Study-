@@ -199,7 +199,7 @@ VALUES (1,256090.00,'people'),
 -- there is a little problem, that reviewer can review documents, from Organizations they do not belong to,
 -- I do not how common that would be in practice but on the manual insert it is possible
 INSERT INTO review_actions(user_id, value_number, job_id, review_date, changed_value)
-VALUES (8,31,1,'2026-02-15',254090.00),
+VALUES (8,1,1,'2026-02-15',254090.00),
        (1,4,2,'2026-06-02',0.45),
        (7,13,5,'2026-04-10',273879),
        (2,7,3,'2025-10-24',0.48);
